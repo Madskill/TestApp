@@ -1,14 +1,13 @@
 package TestApp;
 
-use strict;
-use warnings;
-use utf8;
+use qbit;
+use base qw(QBit::Class);
 
 use Term::ANSIColor qw(colored);
 
 use TestApp::Data qw(get_hello);
 
-our $VERSION = '0.0.6';
+our $VERSION = '0.0.7';
 
 sub new {bless({}, $_[0])}
 
@@ -24,7 +23,7 @@ TestApp - Test package for script test_app
 
 =head1 VERSION
 
-version 0.0.6
+version 0.0.7
 
 =head1 DESCRIPTION
 

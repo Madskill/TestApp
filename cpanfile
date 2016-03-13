@@ -1,5 +1,6 @@
+requires 'QBit::Class';
 requires 'Term::ANSIColor';
-#requires 'https://github.com/Madskill/TestApp.git';
+requires 'qbit';
 
 on configure => sub {
     requires 'Module::Build::Tiny', '0.019';

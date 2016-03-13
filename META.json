@@ -27,7 +27,9 @@
       },
       "runtime" : {
          "requires" : {
-            "Term::ANSIColor" : 0
+            "QBit::Class" : 0,
+            "Term::ANSIColor" : 0,
+            "qbit" : 0
          }
       },
       "test" : {
@@ -39,12 +41,12 @@
    "provides" : {
       "TestApp" : {
          "file" : "lib/TestApp.pm",
-         "version" : "v0.0.6"
+         "version" : "v0.0.7"
       },
       "TestApp::Data" : {
          "file" : "lib/TestApp/Data.pm"
       }
    },
    "release_status" : "stable",
-   "version" : "0.0.6"
+   "version" : "0.0.7"
 }
