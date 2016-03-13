@@ -1,0 +1,10 @@
+.project
+Build.PL
+MANIFEST
+META.json
+META.yml
+bin/test_app
+cpanfile
+lib/TestApp.pm
+lib/TestApp/Data.pm
+t/test_app.t

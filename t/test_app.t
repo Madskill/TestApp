@@ -7,6 +7,6 @@ BEGIN {plan tests => 1,}
 
 use lib::abs qw(../lib);
 
-use TestApp;
+use TestApp::Data qw(get_hello);
 
-ok(TestApp->new()->get_hello(), 'Hello, World!');
+ok(get_hello(), 'Hello, World!');

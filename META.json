@@ -1,0 +1,49 @@
+{
+   "abstract" : "Test package for script test_app",
+   "author" : [
+      "Igor Sverdlov <igor-sverdlov@mail.ru>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "App::ModuleBuildTiny version 0.010",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "TestApp",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build::Tiny" : "0.019"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "App::ModuleBuildTiny" : "0.010"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Term::ANSIColor" : 0
+         }
+      },
+      "test" : {
+         "requires" : {
+            "lib::abs" : 0
+         }
+      }
+   },
+   "provides" : {
+      "TestApp" : {
+         "file" : "lib/TestApp.pm",
+         "version" : "v0.0.3"
+      },
+      "TestApp::Data" : {
+         "file" : "lib/TestApp/Data.pm"
+      }
+   },
+   "release_status" : "stable",
+   "version" : "0.0.3"
+}
