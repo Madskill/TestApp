@@ -1,0 +1,9 @@
+use strict;
+use warnings;
+use utf8;
+
+use TestApp;
+
+TestApp->new()->print_hello();
+
+exit 0;
