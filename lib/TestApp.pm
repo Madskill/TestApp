@@ -8,12 +8,12 @@ use Term::ANSIColor qw(colored);
 
 use TestApp::Data qw(get_hello);
 
-our $VERSION = '0.0.3';
+our $VERSION = '0.0.5';
 
 sub new {bless({}, $_[0])}
 
 sub print_hello {
-    print colored(get_hello(), 'green') . "\n";
+    print colored(get_hello(), 'green') . " I am TestApp version = $VERSION\n";
 }
 
 1;
@@ -24,7 +24,7 @@ TestApp - Test package for script test_app
 
 =head1 VERSION
 
-version 0.0.3
+version 0.0.5
 
 =head1 DESCRIPTION
 
