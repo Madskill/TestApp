@@ -39,12 +39,12 @@
    "provides" : {
       "TestApp" : {
          "file" : "lib/TestApp.pm",
-         "version" : "v0.0.5"
+         "version" : "v0.0.6"
       },
       "TestApp::Data" : {
          "file" : "lib/TestApp/Data.pm"
       }
    },
    "release_status" : "stable",
-   "version" : "0.0.5"
+   "version" : "0.0.6"
 }

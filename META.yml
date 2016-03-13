@@ -17,10 +17,9 @@ name: TestApp
 provides:
   TestApp:
     file: lib/TestApp.pm
-    version: v0.0.5
+    version: v0.0.6
   TestApp::Data:
     file: lib/TestApp/Data.pm
 requires:
   Term::ANSIColor: '0'
 version: 0.0.6
-
