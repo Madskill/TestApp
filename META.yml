@@ -22,4 +22,5 @@ provides:
     file: lib/TestApp/Data.pm
 requires:
   Term::ANSIColor: '0'
-version: 0.0.5
+version: 0.0.6
+
